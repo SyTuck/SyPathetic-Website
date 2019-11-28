@@ -1,0 +1,92 @@
+/*  stylesheet for Game 111 lab assignments.
+    probably to be used as the basis for the portfolio assignment */
+
+body {                              /* this is to create a standard "hero" banner for all pages */
+    background: url("./media/PersonalLogo_110shift.png");
+    background-color: #c5c6d0;
+    background-origin: content-box;
+    background-position: top;       /* set the image at the top of the page*/
+    background-repeat: no-repeat;   /* Do not repeat the image */
+    color: #113399;
+    font-family: "Calibri";
+    font-size:18px;
+    margin-top:75px;
+    padding-left: 110px;
+}
+
+p {                             /* Default paragrahs are left aligned */
+    font-size:18px;
+    text-align:justify;    
+    text-justify:inter-word;
+}
+
+h3 {                            /* making a custom H3 just to be different */
+ /*   color:#006666; */
+    font-weight:bold;
+    text-align:left;
+    font-size:20px;
+}
+
+Img{                            /* default image style is no border with rounded corners */
+   border-style: none;
+   border-radius: 25px;
+}
+.ShadowedImg {                  /* images to be higlighted with a drop shadow */
+    border-style: none;         /* curteousy of W3 tools */
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+.BorderedImg {                  /* images for from dyfunct projects */
+    border-width:5px;
+    border-style: solid;
+    border-color: #FF0000;
+    padding: 5px;
+}
+
+#BigHead {
+    font-weight:bold;
+    font-size: 40px; 
+    text-align: center;
+}
+#NoCats { 
+    font-style: italic;
+    font-size: 12px;
+    text-align: center;
+}
+.HighlightBlock1{                             /*languages are highlighted with a darker background and dark green border */
+    background-color:#dadbe5;
+    border-style: ridge;
+    border-width:2px;
+    border-color: rgb(22, 56, 22);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#gameideas{                             /*highlight the game ideas with a lighter colour and purple border */
+    background-color:#b3b4b0;
+    border-style:outset;
+    border-width: 10px;
+    border-color: rgb(88, 00, 88);
+}
+
+#SideBar{                       /* The sidebar menu */
+    height: 100%;               /* Full-height: remove this if you want "auto" height */
+    width: 100px;               /* Set the width of the sidebar */
+    position: fixed;            /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1;                 /* Stay on top */
+    top: 0;                     /* Stay at the top */
+    left: 0;
+    background-color: #252630;/*Dark Grey */
+    overflow-x: hidden;         /* Disable horizontal scroll */
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #99CCFF;
+}
+
+.SBLinks
+{
+    color: #3377FF;
+}
